@@ -17,4 +17,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           script: |
-            echo "<h1>Hello from Ragul - Auto Deployed!</h1>" | sudo tee /var/www/html/index.html
+            cd /var/www/html
+            sudo git clone https://github.com/Ragulpps007/devops-cicd-project.git . 2>/dev/null || sudo git pull
