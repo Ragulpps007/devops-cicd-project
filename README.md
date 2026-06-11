@@ -34,6 +34,3 @@ Live Demo
 EC2 Instance: AWS ap-south-1 region
 Web Server: Nginx
 Auto deployed on every commit
-
-
-Copy panni GitHub repo → README.md → paste pannuva da!
