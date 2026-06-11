@@ -34,3 +34,10 @@ Live Demo
 EC2 Instance: AWS ap-south-1 region
 Web Server: Nginx
 Auto deployed on every commit
+
+## Upcoming Enhancements
+- [ ] Prometheus - Server metrics collection
+- [ ] Grafana - Visual monitoring dashboard  
+- [ ] Alerting - Email/Slack notifications when server is down
+- [ ] Docker - Containerize the application
+- [ ] Multiple environments - Staging and Production separate
